@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/coins-1.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.icon{
+    width: 70px;
+    margin: 30px;
+}
+
+
+nav{
+    display: flex;
+    float: right;
+    margin: 40px 70px 0 0 ;
+    gap: 30px;
+}
+
+.signup{
+    padding: 10px 20px;
+    background: orangered;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sigin{
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.signup:visited, .sigin:visited{
+    background: green;
+    color: white;
+}
+
+.signup:hover{
+    background: orange;
+}
+.sigin:hover{
+    background: orangered;
+}
