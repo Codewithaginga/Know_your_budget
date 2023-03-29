@@ -83,8 +83,8 @@ nav{
 /*------------section 2 -------------*/
 
 .container-1{
-    background: orangered;
-    height: 80vh;
+    /* background: orangered; */
+    height: 100vh;
 }
 
 .section-2{
@@ -107,7 +107,15 @@ nav{
     margin-top: 30px;
 }
 
+.why-budget p{
+    padding: 10px 0;
+}
+
 @media only screen and (max-width: 600px) {
+
+    *{
+        box-sizing: border-box;
+    }
 
 
     .icon{
